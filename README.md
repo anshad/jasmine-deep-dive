@@ -102,6 +102,8 @@ A spy can intercept function calls.
 - Call a fake function 
 - Throw an Error 
 
+`spyOn(someObj, 'func').withArgs(1, 2, 3).and.returnValue(42);`
+
 #### Links
 - https://jasmine.github.io/index.html
 - https://github.com/velesin/jasmine-jquery
