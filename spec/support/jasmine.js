@@ -5,7 +5,7 @@ jasmine.loadConfig({
     spec_dir: 'spec',
     spec_files: ["**/*[sS]pec.js"],
     helpers: [
-        ""
+        "helpers/**/*.js"
     ],
     random: false,
     stopSpecOnExpectationFailure: false
