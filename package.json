@@ -1,0 +1,20 @@
+{
+  "name": "jasminetest",
+  "version": "1.0.0",
+  "description": "Jasmine - a deep dive",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/jasmine/bin/jasmine.js --config=spec/support/jasmine.json",
+    "testc": "node spec/support/jasmine.js"
+  },
+  "author": "anshad",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-jquery": "^2.1.1"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
